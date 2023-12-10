@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: url(https://wallpapercave.com/wp/wp2610913.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: "Roboto";
+}
+
+.navbar {
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    width: 50px;
+    cursor: pointer;
+    margin-top: 3%;
+    margin-left: -2%;
+}
+
+ul {
+    margin-top: -4%;
+
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+
+}
+
+ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategrey;
+    margin-top: -3%;
+    transition: .4s ease;
+
+}
+
+ul li a:hover {
+    color: pink;
+}
+
+.info {
+    margin-left: 7%;
+    margin-top: 6%;
+
+}
+
+.info h1 {
+    font-size: 45px;
+    color: rgb(36, 32, 30);
+}
+
+.info h3 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: :24px;
+
+}
+
+.info span {
+    color: yellow;
+}
+
+.info a {
+    text-decoration: none;
+    color: #fff;
+    background: rgb(36, 32, 30);
+    margin: 26px;
+    border-radius: 10px;
+    transition: .4s ease;
+    padding: 10px 18px;
+    display: inline-block;
+}
+
+.info a:hover {
+    background: pink;
+
+}
+
+.image {
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+.image img {
+    position: absolute;
+    height: 140%;
+    left: 40%;
+    transform: translate(-50%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+
+.image:hover.girl {
+    left: 55%;
+
+}
+</style>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+            <img src="https://img.icons8.com/?size=24&id=36639&format=png" class="logo mt-5" />
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolic</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Service</a></li>
+            </ul>
+        </div>
+        <div class="info">
+            <h3>Hi I'm <span>Alekhya</span></h3>
+            <h1><span>F</span>rontend <span>D</span>eveloper</h1>
+            <h3>Everything you see on a website, like buttons, <br>links, animations, and more, <br>were created by a front end web developer.</h3>
+            <a href="https://drive.google.com/file/d/13twW177aCvibeX9BBcip10jt3fVh9qQP/view?usp=sharing" download="computer" class="downloads">My</a>
+        </div>
+        <div class="image">
+            <img src="https://i.postimg.cc/mkfRcrTL/girl.png" class="girl" />
+        </div>
+    </div>
+</body>
+
+</html>
